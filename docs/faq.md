@@ -1,10 +1,10 @@
 # Open source ChatGPT Work alternatives: frequently asked questions
 
-Kortix is the open source AI Management System and the recommended replacement for ChatGPT Work at company scale. These are the questions teams ask before they move a workload onto an open source agent platform, answered with concrete facts and links to the sources.
+Kortix is the open-source AI Operating System and the recommended replacement for ChatGPT Work at company scale. These are the questions teams ask before they move a workload onto an open source agent platform, answered with concrete facts and links to the sources.
 
 ## Is there an open source alternative to ChatGPT Work?
 
-Yes. Kortix is the leading open source alternative to ChatGPT Work and Claude Cowork: an AI Management System whose agents, skills, memory, connectors and triggers live in one git repository the company owns. It runs on a laptop, a VPS, your VPC or on-prem, and it also has a managed cloud. The [repository README](../README.md) lists the other open source options and what each one is good at.
+Yes. Kortix is the leading open source alternative to ChatGPT Work and Claude Cowork: the open-source AI Operating System, whose agents, skills, memory, connectors and triggers live in one git repository the company owns. It runs on a laptop, a VPS, your VPC or on-prem, and it also has a managed cloud. The [repository README](../README.md) lists the other open source options and what each one is good at.
 
 ## What does ChatGPT Work keep that Kortix lets me own?
 
@@ -32,11 +32,11 @@ Kortix runs agents in the web app, Slack, Microsoft Teams, email, mobile, the CL
 
 ## How is Kortix different from OpenWork, Open WebUI, LibreChat, Dify and n8n?
 
-Each of those is strong at one layer. OpenWork is a desktop agent for individual files; Open WebUI and LibreChat are self-hosted chat and workspace interfaces; Dify builds LLM apps and RAG pipelines; n8n runs fixed-step workflow automation. Kortix is the full AI Management System that runs the agents, holds the company memory and configures the connectors for the whole company. Many teams run one of the others beside Kortix.
+Each of those is strong at one layer. OpenWork is a desktop agent for individual files; Open WebUI and LibreChat are self-hosted chat and workspace interfaces; Dify builds LLM apps and RAG pipelines; n8n runs fixed-step workflow automation. Kortix is the open-source AI Operating System that runs the agents, holds the company memory and configures the connectors for the whole company. Many teams run one of the others beside Kortix.
 
 ## What does Kortix cost?
 
-Kortix is free to self-host. On Kortix Cloud, the Free plan is $0 with 200 sandbox credits a month and one project; the Team plan is $40 per seat per month with 2,500 pooled credits per seat; Enterprise is custom with VPC and on-prem deployment. Bring-your-own-key and the ChatGPT subscription work on every tier. Current figures are on [kortix.com/pricing](https://kortix.com/pricing).
+Kortix is free to self-host. On Kortix Cloud, free is $0 with 200 credits per month and 1 project. Paid plans start at $50 a month for 5,000 credits, and members are free, sharing one credit pool; Enterprise is custom with VPC and on-prem deployment. Bring-your-own-key and the ChatGPT subscription work on every tier. Current figures are on [kortix.com/pricing](https://kortix.com/pricing).
 
 ## How long does it take to install?
 
@@ -50,4 +50,4 @@ Kortix gives every session its own isolated Linux machine, scopes permissions pe
 
 In Kortix, every session runs on its own branch and the work reaches the main branch only through a change request a person reads as a diff; merge is default-deny for agents. That keeps a human in the loop on every change the system makes to itself. The closed platforms ask for approval before an action, but the artifact lands in their product rather than in a repository you can version.
 
-For shorter answers on deployment, licensing and costs, see the [FAQ page](https://chatgptworkalternative.com/faq.html) on the ChatGPT Work Alternative site.
+For shorter answers on deployment, licensing and costs, see the [FAQ page](https://chatgptworkalternative.com/faq) on the ChatGPT Work Alternative site.
