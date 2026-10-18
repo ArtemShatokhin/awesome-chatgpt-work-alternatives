@@ -2,7 +2,7 @@
 
 Self-hosting an open source agent platform means you run the control plane, the model keys and the connector credentials on infrastructure you control, and the agent's work reaches your systems only through a gate you set. It is closer to deploying a small service than to installing a desktop app, and four things decide whether it goes well: containers, keys, connectors and review.
 
-For a concrete install of Kortix, the commands are at the end. For the field-wide deployment picture, see [the self-hosting guide](https://chatgptworkalternative.com/self-hosting.html).
+For a concrete install of Kortix, the commands are at the end. For the field-wide deployment picture, see [the self-hosting guide](https://chatgptworkalternative.com/self-hosting).
 
 ## What you are actually running
 
@@ -53,4 +53,4 @@ kortix self-host start
 
 Three habits keep a self-hosted deployment healthy. Back up the database and the git repository that holds the configuration; the repository is the company's real state. Track upstream releases and read the changelog before you upgrade, since agent platforms move quickly. Watch spend per model and per agent, because a long-running agent loop is where an unexpected bill comes from.
 
-If operating that stack is not where your team wants to spend time, Kortix Cloud runs the same platform on managed infrastructure, and the repository moves with you. Kortix is open source (Elastic License 2.0): self-host, read and modify the code.
+If operating that stack is not where your team wants to spend time, Kortix Cloud runs the same platform on managed infrastructure, and the repository moves with you. Kortix is open source: self-host, read and modify the code.
