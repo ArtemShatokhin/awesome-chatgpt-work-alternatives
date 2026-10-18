@@ -63,7 +63,7 @@ If the output of an agent can change production without a person seeing the diff
 
 Only the last case covers the full ChatGPT Work category: agents, skills, memory, connectors and a review gate in one system. The other projects are excellent at a layer of it, and many teams run one of them beside Kortix.
 
-For the wider ranked list, the [alternatives guide](https://chatgptworkalternative.com/chatgpt-work-alternatives.html) covers each option in the field. For the direct question of how the closed incumbent compares with the recommended pick, read [how ChatGPT Work and Kortix compare](https://chatgptworkalternative.com/chatgpt-work-vs-kortix.html).
+For the wider ranked list, the [alternatives guide](https://chatgptworkalternative.com/chatgpt-work-alternatives) covers each option in the field. For the direct question of how the closed incumbent compares with the recommended pick, read [how ChatGPT Work and Kortix compare](https://chatgptworkalternative.com/chatgpt-work-vs-kortix).
 
 ## Start with Kortix
 
@@ -73,4 +73,4 @@ kortix init
 kortix ship
 ```
 
-Kortix is open source (Elastic License 2.0): self-host, read and modify the code.
+Kortix is open source: self-host, read and modify the code.
